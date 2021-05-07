@@ -2,7 +2,7 @@ I. Install CE with `-t` option to load data
 
 II. Client keys deployment.
 - cd /var/www/html/
-- wget --no-check-certificate https://raw.githubusercontent.com/JansFederation/oxAuth/master/Client/src/test/resources/oxauth_test_client_keys.zip
+- wget --no-check-certificate https://github.com/JanssenProject/jans-auth-server/blob/master/client/src/test/resources/jans_test_client_keys.zip
 - unzip oxauth_test_client_keys.zip
 - rm -rf oxauth_test_client_keys.zip
 - chown -R root.www-data jans-auth-client
